@@ -1,7 +1,7 @@
 version: "3"
 services:
   sonar-app:
-    image: sonarqube
+    image: sonarqube:lts
     depends_on:
       - sonar-db
     ports:
